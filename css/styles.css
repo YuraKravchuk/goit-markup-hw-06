@@ -563,8 +563,7 @@ button:focus {
 
 .costumer-link:hover, .costumer-link:focus{
   color: var(--hover-btn);
-  border-color: var(--hover-btn);
-  
+  border-color: var(--hover-btn);  
 }
 
 
@@ -860,8 +859,7 @@ button:focus {
   outline: none;
 }
 
-.contact-form-input:hover .contact-form-input-icon,
-.contact-form-input:focus .contact-form-input-icon{
+.contact-form-input:hover+ .contact-form-input-icon, .contact-form-input:focus+ .contact-form-input-icon{
   fill: var(--logo-color);
 }
 
@@ -886,3 +884,4 @@ button:focus {
   fill: var(--white-color);
   border-color: var(--hover-btn);
 }
+
