@@ -610,14 +610,14 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   display: block;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 
 .footer-form-input{
   display: block;
   height: 40px;
-  width: 100%;
+  width: 264px;
   padding: 8px 16px;
   background: none;
   border: 1px solid #FFFFFF;
@@ -633,6 +633,7 @@ button:focus {
 }
 
 .footer-form{
+  position: relative;
   display: flex;
   gap: 24px;
 }
@@ -640,8 +641,9 @@ button:focus {
 .footer-from-sumbit{
   position: absolute;
   display: flex;
+  top: 0;
   left: 100%;
-  margin-left: 24px;
+  
   background-color: var(--logo-color);
   color: var(--white-color);
   padding: 8px 24px;
@@ -650,12 +652,9 @@ button:focus {
   gap: 16px;
 }
 
-.footer-form-input-sumbit{
-  display: flex;
-  position: relative;
-  
+.footer-form-input-wrapper{
+  margin-right: 24px;
 }
-
 /* -------------MODAL---------------- */
 
 .backdrop{
