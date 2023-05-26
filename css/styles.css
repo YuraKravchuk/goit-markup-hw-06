@@ -880,7 +880,7 @@ button:focus {
   height: 16px;
 }
 
-.contact-form-checkbox:checked + .contact-form-field-desc> .form-checkbox-icon> .checkbox-icon{
+.contact-form-checkbox:checked + .contact-form-field-desc> .form-checkbox-icon{
   background-color: var(--hover-btn);
   border: none;
   fill: var(--white-color);
