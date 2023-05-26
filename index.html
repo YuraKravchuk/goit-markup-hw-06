@@ -464,19 +464,18 @@
         </div> 
 
         <form class="footer-form">
-          <label class="footer-form-field-wrapper">
-            <span class="footer-form-desc">Subscribe</span>
-            <span class="footer-form-input-sumbit">
-              <input class="footer-form-input" type="email" name="user_email" required placeholder="Email">
-                <button type="submit" class="footer-from-sumbit">Subscribe
-                  <svg class="footer-form-icon-sumbit" width="24" height="20" aria-label="іконка підписатися">
-                    <use  href="./images/icons.svg#icon-send"></use>
-                  </svg>
-                </button>
-            </span>
-          </label>
-          
-        </form>
+          <div class="footer-form-field-wrapper">
+            <label for="user_email" class="footer-form-desc">Subscribe</label>
+            <div class="footer-form-input-sumbit">
+              <input id="user_email" class="footer-form-input" type="email" name="user_email" required placeholder="E-mail">
+              <button type="submit" class="footer-from-sumbit">Subscribe
+                <svg class="footer-form-icon-sumbit" width="24" height="20" aria-label="іконка підписатися">
+                  <use  href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+             </div>
+          </div>
+       </form>
       </div>
 
       
@@ -495,50 +494,50 @@
         <p class="contact-form-text">Leave your contacts and we will call you back</p>
         <form class="contact-form">
           
-          <label class="contact-form-field-wrapper">
-            <span class="contact-form-field-desc">Name</span>
-            <span class="contact-form-input-wrapper">
-              <input class="contact-form-input" type="text" name="user_name" required pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄʼ]+">
+          <div class="contact-form-field-wrapper">
+            <label for="user_name" class="contact-form-field-desc">Name</label>
+            <div class="contact-form-input-wrapper">
+              <input id="user_name" class="contact-form-input" type="text" name="user_name" required pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄʼ]+">
                 <svg class="contact-form-input-icon"
                   width="15"
                   height="12">
                   <use href="./images/icons.svg#icon-name"></use>
                 </svg>
-            </span>
-          </label>
-          <label class="contact-form-field-wrapper">
-            <span class="contact-form-field-desc">Phone</span>
-            <span class="contact-form-input-wrapper">
-              <input class="contact-form-input" type="tel" name="user_tel" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            </div>
+          </div>
+          <div class="contact-form-field-wrapper">
+            <label for="user_tel" class="contact-form-field-desc">Phone</label>
+            <div class="contact-form-input-wrapper">
+              <input id="user_tel" class="contact-form-input" type="tel" name="user_tel" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
               title="xxx-xxx-xx-xx">
               <svg class="contact-form-input-icon"
                 width="15"
                 height="12">
                 <use href="./images/icons.svg#icon-phone"></use>
              </svg>
-            </span>
+            </div>
             
-          </label>
-          <label class="contact-form-field-wrapper">
-            <span class="contact-form-field-desc">Email</span>
-            <span class="contact-form-input-wrapper">
-              <input class="contact-form-input" type="email" name="user_email" required>
+          </div>
+          <div class="contact-form-field-wrapper">
+            <label for="user_email" class="contact-form-field-desc">Email</label>
+            <div class="contact-form-input-wrapper">
+              <input id="user_email" class="contact-form-input" type="email" name="user_email" required>
               <svg class="contact-form-input-icon"
                 width="15"
                 height="12">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
-            </span>
+            </div>
             
-          </label>
-          <label class="contact-form-field-wrapper">
-            <span class="contact-form-field-desc">Name</span>
-            <textarea class="contact-form-textarea" name="user_message" placeholder="Text input"></textarea>
-          </label>
-          <label>
-            <input class="contact-form-checkbox" type="checkbox" name="user_policy" required>
-            <span class="contact-form-field-desc">I accept the terms and conditions of the <a class=" contact-form-span">Privacy Policy</a></span>
-          </label>
+          </div>
+          <div class="contact-form-field-wrapper">
+            <label for="user_message" class="contact-form-field-desc">Comment</label>
+            <textarea id="user_message" class="contact-form-textarea" name="user_message" placeholder="Text input"></textarea>
+          </div>
+          <div>
+            <input id="user_policy" class="contact-form-checkbox" type="checkbox" name="user_policy" required>
+            <label for="user_policy" class="contact-form-field-desc">I accept the terms and conditions of the <a class=" contact-form-span">Privacy Policy</a></label>
+          </div>
           <button type="submit" class="contact-form-sumbit">Send</button>
         </form>
       </div>
