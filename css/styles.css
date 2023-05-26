@@ -775,6 +775,10 @@ button:focus {
   margin-bottom: 8px;
 }
 
+.contact-form-wrapper{
+  margin-bottom: 16px;
+}
+
 .contact-form-input{
   width: 100%;
   height: 40px;
@@ -827,7 +831,7 @@ button:focus {
   border-radius: 4px;
   color: var(--white-color);
   border: none;
-  min-width: 1669px;
+  min-width: 169px;
   height: 56px;
   font-weight: 500;
   line-height: 1.5;
@@ -867,14 +871,14 @@ button:focus {
 }
 
 .form-checkbox-icon{
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid #2e2f42;
   border-radius: 2px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
-  width: 16x;
-  height: 16;
+  width: 16px;
+  height: 16px;
 }
 
 .contact-form-checkbox:checked + .form-checkbox-icon> .checkbox-icon{
